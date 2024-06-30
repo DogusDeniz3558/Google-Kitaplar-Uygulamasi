@@ -23,9 +23,9 @@ Bu projenin çalışması için aşağıdaki yazılımların sisteminizde yükl�
 
 2. Web sunucusu yazılımınızı kullanarak, projeyi sunucunuzun kök dizinine yerleştirin.
 
-3. Google API Key'inizi `config.js` dosyasına ekleyin:
-    ```javascript
-    const apiKey = 'YOUR_GOOGLE_API_KEY';
+3. Google API Key'inizi `api.php` dosyasına ekleyin:
+    ```php
+     $apiKey = 'YOUR_GOOGLE_API_KEY';
     ```
 
 4. Web tarayıcınızda aşağıdaki URL'yi açın:
